@@ -17,5 +17,4 @@ r2=Room.create(user_id: user2.id, name: 'bed room', description: 'cozy vibes', i
 Like.create(user_id: user1.id, room_id: r1.id)
 Like.create(user_id: user1.id, room_id: r1.id)
 Like.create(user_id: user2.id, room_id: r1.id)
-
 Like.create(user_id: user1.id, room_id: r2.id)

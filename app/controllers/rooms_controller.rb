@@ -2,7 +2,7 @@ class RoomsController < ApplicationController
 
     def index
     rooms=Room.all
-    render json: rooms, include:[:likes, :user]
+    render json: rooms, include:[:likes, :photos, :user]
     end
 
     def create
