@@ -25,7 +25,9 @@ class UsersController < ApplicationController
     end
 
     def update
-    
+        user=User.find(params[:id])
+        user.update(user_params)
+        render json: user.to_json(:include => {:rooms => {:include=> :likes}})
     end
 
     private 
