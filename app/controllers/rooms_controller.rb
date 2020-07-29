@@ -7,7 +7,15 @@ class RoomsController < ApplicationController
 
     def create
         room = Room.create(room_params)
-        render json: room, include:[:likes, :user]
+        render json: room, include:[:likes, :photos, :user]
+    end
+
+    def destroy
+        room=Room.find(params[:id])
+        room.likes.each{|like| like.destroy}
+        room.photos.each{|photo| photo.destroy}
+        room.destroy
+        render json: room
     end
 
     private
