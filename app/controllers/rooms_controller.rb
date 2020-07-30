@@ -1,13 +1,13 @@
 class RoomsController < ApplicationController
 
     def index
-    rooms=Room.all
-    render json: rooms, include:[:likes, :photos, :user]
+        rooms=Room.all
+        render json: rooms, include:[:likes, :comments, :photos, :user]
     end
 
     def create
         room = Room.create(room_params)
-        render json: room, include:[:likes, :photos, :user]
+        render json: room, include:[:likes, :comments, :photos, :user]
     end
 
     def destroy
