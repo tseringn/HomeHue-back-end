@@ -1,24 +1,7 @@
-# README
+# HomeHue - Flatiron-Mod4-Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+HomeHue is an interior design color inspiration app, built with a Rails backend and React frontend, with React client-side routing implemented as well.
 
-Things you may want to cover:
+For a video demonstration of HomeHue, watch here: https://www.youtube.com/watch?v=_l3wUuti28s
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+©️ Tsering Norbu & Chaya Greisman 2020
