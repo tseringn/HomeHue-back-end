@@ -4,4 +4,4 @@ HomeHue is an interior design color inspiration app, built with a Rails backend 
 
 For a video demonstration of HomeHue, watch here: https://www.youtube.com/watch?v=_l3wUuti28s
 
-©️ Tsering Norbu & Chaya Greisman 2020
+©️ Tsering Norbu & Chaya Greisman 2021
